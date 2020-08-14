@@ -23,3 +23,6 @@ Be sure to checkout the following documentation on running a notebook remotely
 [Link to Tutorial](https://snesbitt.web.illinois.edu/wp/resources/using-jupyter-notebook-on-keeling/)
 
 If you are interested in using Dask on Keeling, be sure to checkout the following [notebook](https://github.com/swnesbitt/dask-keeling/blob/master/using%20dask-distributed%20on%20keeling.ipynb)
+
+## Installing and Compiling WRF on Keeling 
+If you are working with Weather Research and Forecasting (WRF) model simulations, You can check the lectures by Prof. Steve Nesbitt on mesoscale modeling [here](https://publish.illinois.edu/mesomodel/)
