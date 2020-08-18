@@ -1,5 +1,5 @@
 # Keeling Crash Course
-## *Getting Started with the UIUC Atmospheric Science High-Performance Computing Cluster*
+### *Getting Started with the UIUC Atmospheric Science High-Performance Computing Cluster*
 
 
 ## Setup your Virtual Private Network (VPN) to Access the On-Campus Network
