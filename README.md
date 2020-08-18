@@ -1,8 +1,6 @@
 # Keeling Crash Course
-## *Tutorial on Getting Setup on Keeling (UIUC Atmos High Performance Computer)*
+## *Getting Started with the UIUC Atmospheric Science High-Performance Computing Cluster*
 
-
-**Welcome to the Keeling tutorial!**
 
 ## Setup your Virtual Private Network (VPN) to Access the On-Campus Network
 Follow the instructions outlined on the [UIUC Tech Services Page](https://techservices.illinois.edu/services/virtual-private-networking-vpn/download-and-set-up-the-vpn-client)
