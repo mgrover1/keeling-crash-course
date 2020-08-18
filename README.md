@@ -61,13 +61,11 @@ Be sure to checkout the following documentation on running a notebook remotely.
 1) Make sure that Jupyter notebook is installed in your conda environment by typing conda install jupyter notebook and following the installation instructions on screen.
 
 2) To store the notebook files that contain each notebook, I create a notebooks subdirectory in my $HOME/python directory:
-
 <pre><code>
 mkdir -p $HOME/python/notebooks
 </pre></code>
 
 3) Come up with a port number between 7000-9000.  Keep this port number in mind as we’ll use it throughout the process to pass the web browser interface for Jupyter from the keeling compute node back to your local machine through the firewall using an ssh tunnel.
-
 <pre><code>
 ssh netid@keeling.earth.illinois.edu
 </pre></code>
@@ -77,7 +75,6 @@ ssh netid@keeling.earth.illinois.edu
 4) From a terminal window on MacOS, or a Windows PowerShell session on Windows 10, ssh to keeling
 
 5) Start an interactive session on one of keeling’s compute nodes using the qlogin command
-
 <pre><code>
 qlogin -p node -n 4 -mem 72G -time 24:00:00
 </pre></code>
@@ -87,7 +84,6 @@ This will request a compute session for 24 hours on 4 CPU cores and request 72 g
 *Note the machine name (i.e., keeling-d02) that you are logged into, you’ll need it for a later step.*
 
 6) Start Jupyter notebook using the following command:
-
 <pre><code>
 jupyter notebook --port=XXXX --no-browser --ip=127.0.0.1
 </pre></code>
@@ -99,7 +95,6 @@ Replace XXXX with the port number you came up with above.  If there is an error 
 ### Connect to your notebook using your local machine
 
 7) Using terminal or PowerShell, open a second ssh session to keeling, except now we will open an ssh tunnel to the compute node using the port that we used in the previous step.
-
 <pre><code>
 ssh -L XXXX:127.0.0.1:XXXX netID@keeling.earth.illinois.edu ssh -L XXXX:127.0.0.1:XXXX -N netID@remotemachine
 </pre></code>
