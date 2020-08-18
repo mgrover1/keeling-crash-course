@@ -12,6 +12,12 @@ You should secure shell (ssh) onto Keeling through a terminal (ex. ssh maxgrover
 after this command, you should be prompted to enter your password. Go ahead and do that, then
 continue! If you using a Windows machine, you can use [Putty](https://www.putty.org/)
 
+## Official Keeling Documentation
+You should check out the [documentation provided by the UIUC Atmospheric Science staff](https://wiki.illinois.edu/wiki/pages/viewpage.action?spaceKey=manabecluster&title=keeling+Home) which includes the following:
+- Explanation of file structure
+- Tutorial on parallel computing using Keeling
+- Weather Research and Forecasting (WRF) model installation turorial
+
 
 ## Installing
 For installation of python on keeling we suggest using miniconda (https://docs.conda.io/en/latest/miniconda.html). This is a light version of anaconda and is less likely to give you problems later on. 
