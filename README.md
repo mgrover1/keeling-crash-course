@@ -1,7 +1,15 @@
 # Keeling Crash Course
 ## *Tutorial on Getting Setup on Keeling (UIUC Atmos High Performance Computer)*
 
+
 **Welcome to the Keeling tutorial!**
+
+## Setup your Virtual Private Network (VPN) to Access the On-Campus Network
+Follow the instructions outlined on the (UIUC Tech Services Page)[https://techservices.illinois.edu/services/virtual-private-networking-vpn/download-and-set-up-the-vpn-client]
+
+Download the required software, follow the instructions for logging in, then continue on! You are doing great.
+
+---
 
 ## Logging into Keeling
 You should have received an email from the School of Earth Society and Environment (SESE)
