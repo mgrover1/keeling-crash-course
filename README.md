@@ -44,7 +44,8 @@ If it complained that there is nothing named conda, something didnt work and we 
 8) If the last command worked, you will want to install all the packages you want. To do that follow the example here:
 <pre><code> conda install matplotlib </pre></code>
 
-Here is a list of other packages you will likely need:
+Here is a list of other packages you will likely need. This will install the packages globally. It is often better to use a virtual environment when installing packages because it allows you to manage your Python packages for different projects. For example, one of your projects may require a different verison of a library than another. You can find resources for doing so at https://ncar.github.io/esds/faq/#conda-environments 
+
 <pre><code>
 conda install scipy
 conda install netCDF4
