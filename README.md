@@ -102,7 +102,7 @@ Replace XXXX with the port number you came up with above.  If there is an error 
 
 7) Using terminal or PowerShell, open a second ssh session to keeling, except now we will open an ssh tunnel to the compute node using the port that we used in the previous step.
 ```
-ssh -L XXXX:127.0.0.1:XXXX netID@keeling.earth.illinois.edu ssh -L XXXX:127.0.0.1:XXXX -N netID@remotemachine
+ssh -L XXXX:127.0.0.1:XXXX netID@keeling.earth.illinois.edu ssh -L XXXX:127.0.0.1:XXXX netID@remotemachine
 ```
 
 You’ll have to replace
