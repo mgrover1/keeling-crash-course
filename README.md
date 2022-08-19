@@ -81,7 +81,10 @@ ssh netid@keeling.earth.illinois.edu
 
 4) From a terminal window on MacOS, or a Windows PowerShell session on Windows 10, ssh to keeling
 
-5) Start an interactive session on one of keeling’s compute nodes using the qlogin command
+5) Start a bash session (to be able to run python):
+<pre><code> bash </code></pre>
+
+6) Start an interactive session on one of keeling’s compute nodes using the qlogin command
 ```
 qlogin -p node -n 4 -mem 72G -time 24:00:00
 ```
@@ -90,7 +93,7 @@ This will request a compute session for 24 hours on 4 CPU cores and request 72 g
 
 *Note the machine name (i.e., keeling-d02) that you are logged into, you’ll need it for a later step.*
 
-6) Start Jupyter notebook using the following command:
+7) Start Jupyter notebook using the following command:
 ```
 jupyter notebook --port=XXXX --no-browser --ip=127.0.0.1
 ```
@@ -101,7 +104,7 @@ Replace XXXX with the port number you came up with above.  If there is an error 
 
 ### Connect to your notebook using your local machine
 
-7) Using terminal or PowerShell, open a second ssh session to keeling, except now we will open an ssh tunnel to the compute node using the port that we used in the previous step.
+8) Using terminal or PowerShell, open a second ssh session to keeling, except now we will open an ssh tunnel to the compute node using the port that we used in the previous step.
 ```
 ssh -L XXXX:127.0.0.1:XXXX netID@keeling.earth.illinois.edu ssh -L XXXX:127.0.0.1:XXXX netID@remotemachine
 ```
@@ -115,7 +118,7 @@ Note that you may have to enter your password if you don’t have the ssh key fo
 
 This will set up an ssh tunnel from port xxxx (which is accessible from your web browser) to the Jupyter notebook server on keeling.  You will need to kill this ssh session (with Control-C) when you are finished, as you can’t connect again to this port without killing it explicitly.
 
-8) Now, point a web browser to the URL that you obtained in Step 1.  You should see a Jupyter notebook that displays locally, but executes code on keeling, and has access to keeling file systems.  Note that it will not have access to your local file systems (e.g., on your Mac or PC).
+9) Now, point a web browser to the URL that you obtained in Step 1.  You should see a Jupyter notebook that displays locally, but executes code on keeling, and has access to keeling file systems.  Note that it will not have access to your local file systems (e.g., on your Mac or PC).
 
 ### General Advice
 
