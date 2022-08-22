@@ -108,7 +108,7 @@ ssh -L XXXX:127.0.0.1:XXXX netID@keeling.earth.illinois.edu ssh -L XXXX:127.0.0.
 You’ll have to replace
   * The port number from above in 4 places
   * Your netID in two places
-  * The name of the remote machine (last argument)
+  * The name of the remote machine (i.e., keeling-d02; see step 5 under Install Jupyter and Create Directory for more details)
 
 Note that you may have to enter your password if you don’t have the ssh key for keeling stored on your local machine.  Warnings for RSA host keys are ok.
 
